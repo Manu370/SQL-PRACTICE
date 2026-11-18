@@ -1,0 +1,58 @@
+SELECT * FROM training_center.trainers;
+
+SELECT curdate();
+
+SELECT curtime();
+
+SELECT NOW();
+
+SELECT CURRENT_TIMESTAMP();
+
+SELECT YEAR('2026-09-05');
+
+SELECT month('2026-09-05');
+
+SELECT day('2026-09-05');
+
+SELECT hour('04:05:30');
+
+SELECT second('04:05:30');
+
+SELECT min('04:05:30');
+
+SELECT dayname('2026-09-05');
+
+SELECT MONTHNAME('2026-09-05');
+
+SELECT weekday('2026-09-05');
+
+SELECT quarter('2026-09-05');
+
+SELECT DAYOFWEEK('2026-09-05');
+
+SELECT DAYOFYEAR('2026-09-05');
+
+SELECT WEEK('2026-09-05');
+
+SELECT date_add('2026-09-05', interval 10 DAY);
+
+SELECT date_add('2026-09-05', interval 3 MONTH);
+
+SELECT date_sub('2026-09-05', interval 3 MONTH);
+
+SELECT datediff('2026-09-15' , '2026-09-05');
+
+SELECT timestampdiff(DAY,'2026-09-15','2026-09-05');
+
+SELECT TIMESTAMPDIFF(
+    MONTH,
+    '2025-01-01',
+    '2026-09-01'
+);
+
+SELECT LAST_DAY('2026-09-01');
+
+SELECT date_format('2026-09-01', '%D-%M-%Y');
+
+SELECT EXTRACT(MONTH FROM '2026-09-05');
+
